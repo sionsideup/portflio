@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <p>00 minutes 00 seconds</p>
+  <script>
+    var p = document.getElementsByTagName('p')[0],
+    seconds = 0, minutes = 0,
+    t;
+
+function add() {
+    seconds++;
+    if (seconds >= 60) {
+        seconds = 0;
+        minutes++;
+        if (minutes >= 60) {
+            minutes;
+        }
+    }
+    
+    p.textContent = (minutes ? (minutes > 9 ? minutes : "0" + minutes) : "00") + " minutes " + (seconds > 9 ? seconds : "0" + seconds) + " seconds";
+
+    timer();
+}
+function timer() {
+    t = setTimeout(add, 1000);
+}
+timer();
+    </script>
+</body>
+</html>
