@@ -215,19 +215,15 @@ background-color: transparent;
 	padding: 60px 0;
 }
 #about-us{
-	background: url(../img/aboutmeimg.jpg);
+	background: url(../img/aboutmeimg.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
-    opacity: 0.4;
+	background-attachment:fixed;
+
 	height: auto;
 	min-height: 710px;	
 	padding-top: 60px;
-	color: #ffffff;
-}
-
-#about-us. h2,p{
     color:black;}
 
 
@@ -517,6 +513,12 @@ ul.social li a{
 	font-size: 50px;
 }
 
+form{
+width: 960px;
+    position:relative;
+    margin-left: 5%;
+}
+
 address strong{
 	text-transform: uppercase;
 	font-style: normal;
@@ -541,6 +543,7 @@ address{
 	font-family: 'Lato', sans-serif;
 	letter-spacing: 1px;
 }
+
 
 #contact input.form-control,
 #contact textarea.form-control {
