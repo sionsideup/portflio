@@ -231,12 +231,12 @@ background-color: transparent;
 
 a.down-btn span.fa.fa-angle-down {
 	font-size: 26px;
-	border: 1px solid #c59a6d;
+/*	border: 1px solid #727272;*/
 	border-radius: 2px;
 	padding: 7px 5px;
 	position: relative;
 	cursor: pointer;
-	color: #c59a6d;
+	color: #727272;
 	margin-top: 30px;
 }
 
@@ -404,84 +404,6 @@ a.btn.send-btn:hover{
 	color: #ffffff;
 }
 
-#clients {
-	background: url(../img/bg3.jpg);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	text-align: center;
-}
-
-#clients .overlay{
-	background: rgba(34, 34, 34, 0.85);
-	height: auto;
-	min-height: 200px;
-	padding: 8% 0 ;
-	color: #ffffff;
-}
-
-ul, ol{
-	padding: 0;
-	moz-padding: 0;
-	webkit-padding: 0;
-}
-
-ul.clients li{
-	display: inline-block;
-	padding: 20px 40px;
-	vertical-align: middle;
-}
-
-.team {
-	border: 1px solid #c3c3c3;
-	padding: 70px 20px;
-	text-align: center;
-	opacity: 0.7;
-	transition: all 0.8s;
-	max-height: 340px;
-	margin-bottom: 30px;
-}
-.team:hover.hire,
-.team.hire{
-	height: 340px;
-	border-color: #c59a6d;
-	color: #c59a6d;
-	opacity: 1;
-}
-
-.team.hire>a{
-	color: #c59a6d;
-}
-.team hr{
-	border-width: 2px;
-	border-color: #dcc2a7;
-}
-.team:hover{
-	opacity: 1;
-	border: 1px solid #222;
-}
-.team img {
-	width: 80px;
-	margin: 0 auto;
-}
-
-#testimonials {
-	background: url(../img/bg4.jpg);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-attachment: scroll;
-	text-align: center;
-}
-
-#testimonials .overlay{
-	background: rgba(34, 34, 34, 0.85);
-	height: auto;
-	min-height: 200px;
-	padding: 5% 0 ;
-	color: #ffffff;
-}
 
 .owl-theme .owl-controls .owl-page span {
 	display: block;
