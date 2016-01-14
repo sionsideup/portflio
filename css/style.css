@@ -211,14 +211,27 @@ background-color: transparent;
 
 #meet-us,
 #services,
-#works,
-#about-us{
+#works{
 	padding: 60px 0;
 }
+#about-us{
+	background: url(../img/aboutmeimg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    opacity: 0.4;
+	height: auto;
+	min-height: 710px;	
+	padding-top: 60px;
+	color: #ffffff;
+}
 
-#about-us img{
-    width:450px;
-height: auto;}
+#about-us. h2,p{
+    color:black;}
+
+
+
 
 a.down-btn span.fa.fa-angle-down {
 	font-size: 26px;
